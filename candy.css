@@ -1,10 +1,14 @@
 @media (min-width: 768px) and (max-width: 992px){
 	#nav{
 		margin-bottom: 3rem;
+
 	}
 }
 @media(max-width: 768px){
 	#heading{
+		display: none;
+	}
+	.can{
 		display: none;
 	}
 }
@@ -25,4 +29,9 @@
 #heading{
 	color:white;
 	font-weight: 700;
+
+}
+p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 120%;
 }
